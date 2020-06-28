@@ -1,0 +1,254 @@
+section p{
+
+	font-size: 18px;
+	font-family: helvetica;
+	color: #323639; 
+}
+
+div.container {
+   			 width: 100%;
+   			}
+
+.col-1{
+
+	width: 100%;
+	margin-top: 70px;
+	/*float: left;*/
+	left: 0;
+	/*border: 1px solid black;*/
+	padding: 20px;
+}
+
+.orden{
+
+	width: auto;
+	float: left;
+}
+
+.contador{
+
+	width: 200px;
+	float: right;
+	height: 100px;
+}
+
+.contador p{
+
+}
+
+.Boxcont{
+
+	width: 200px;
+	height: 60px;
+	font-size: 29px;
+	color: #323639;
+	font-family: helvetica;
+}
+
+.contador span{
+
+font-size: 30px;
+padding-left: 60px;
+
+}
+
+.contador span:hover{
+	color: rgba(0,0,0,.7);
+	cursor: pointer;
+
+}
+
+select{
+
+	border: 2px solid #323639;
+	width: 120px;
+	border-radius: 2px;
+	color: #323639;
+
+}
+
+select option{
+	color: #323639; 
+	font-size: 18px;
+}
+
+
+.col-2{
+	
+	width: auto;
+	margin-top: 70px;
+	float: left;
+	margin-bottom: 70px;
+		
+}
+
+section .contenedor{
+
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	display: flex;
+	float: left;
+}
+
+div#products.col-xs-12{                                 
+
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+	display: flex;
+	float: left;
+}
+
+.col-2 article{
+	margin: 10px;
+}
+
+.imgBox{
+
+	position: relative;
+	overflow: hidden;
+	height: 250px;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.div_btn_ofertas{
+	height: 30px;
+}
+/*#art{
+
+	width: 300px;
+	height: 400px;
+	background: #fff;
+	box-shadow: 0px 5px 5px #E4E4E4;
+	border: 1px solid #dbdcda;
+	border-radius: 6.5px 6.5px 0px 0px;
+}*/
+
+/*Este es el nuevo id que sirve para modificar las ofertas*/
+ /*.product-id,*/
+ /* .product-item {
+
+	width: 300px;
+	height: 400px;
+	background: #fff;
+	box-shadow: 0px 20px 20px #E4E4E4;
+	border: 1px solid #dbdcda;
+	border-radius: 6.5px 6.5px 0px 0px;
+	margin-bottom: 70px;
+	margin-top: 5px; 
+}*/
+div .product-item {
+
+	width: 260px;													
+	height: 400px;
+	background: #fff;
+	/*box-shadow: 0px 20px 20px #E4E4E4;*/
+	/*border: 1px solid #dbdcda;*/
+	/*border-radius: 6.5px 6.5px 0px 0px;*/
+	margin-bottom: 70px;
+	margin-top: 5px; 
+	margin-right: 50px;
+	padding: 0px;
+	
+}
+
+div .product-item:hover img ,.boton-ver{
+		transform: scale(1.1);
+
+
+}
+.product-item img{
+	
+	border-radius: 6.5px 6.5px 6.5px 6.5px;
+	box-shadow: 0px 20px 20px #E4E4E4;
+	border: 2px solid #dbdcda;
+	width: 100%;
+	height: 100%;
+	transition: .3s;
+}
+
+/*NUEVO*/
+
+
+/*Botones ver oferta*/
+.boton-ver{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px; 
+	border:1px;
+	border-color: lightgrey;
+	background-color: #FFAB00; 
+}
+
+/*----*/
+
+.boton-carrito{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	font-size: 14px; 
+	border:1px;
+	border-color: lightgrey;
+	background-color: #323639;
+	z-index: 9999; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section ul p {
+	text-align: center;
+	color: #323639;
+	font-family: helvetica;
+	font-size: 14px; 
+	text-indent: 10px;
+}
+
+section ul .poferta {
+	color: #FFAB00;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+
+}
+
+section li {
+	margin-top: 5px;
+}
+
+.Box { margin-top: 20px;
+} 
+
+
+article a{
+
+text-decoration: none;
+display: block;
+
+}
+
+
+section a{
+
+	text-decoration: none;
+}
+
+section ul{
+	list-style-type: none;
+}

@@ -1,0 +1,357 @@
+/*Para vistas hasta 980px*/
+
+@media screen and (max-width: 980px){
+
+	.footer .logo{
+			display: none;
+	}
+
+	.footer .redes{
+		margin-top: 10px;
+	}
+
+	.footer .inf{
+		margin-top: 10px;
+	}
+
+	.link{
+		text-align: center;
+	}
+
+	.Registro{
+		padding-top: 0px;
+	}
+	/*ESTA ES LA CLASE DEL SLIDER QUE ESTÁ EN EL INDEX*/
+	.index{
+		margin-top: 0px;
+	}
+
+	/*SLIDER DE REGISTRO E INGRESO DE USUARIO*/
+
+	.registroingreso{
+		margin-top: 0px;
+	}
+
+	.flexslider{
+	width: auto;
+	height: 100%;
+	position: relative;
+	}
+
+	.registroingreso ul img{
+	width: 130%;
+	}
+
+
+}
+
+
+/*Para vistas hasta 768px*/
+
+@media screen and (max-width: 768px){
+	
+	body{
+		padding-top:80px;
+	}
+
+	.header{
+		display: none;
+	}
+
+	.mobileview{
+	 	display: block;
+	 	height: 150px;
+		background-color: #323639;
+		width: 100%;
+	    top: 0;
+		left: 0;
+	    z-index: 9999;
+	    position: fixed;
+	 }
+
+	.mobileview .logo{
+		width: 180px;
+		margin: 20px 20px;
+	}
+
+	.mobileview .enlaces{
+		float: right;
+		margin-top: 22px;	
+	}
+
+	.mobileview .enlaces ul{
+		list-style: none;
+		display: flex;
+		margin: 20px;
+	}
+
+	.mobileview .enlaces ul li{
+		padding: 10px;
+		width: 50px;
+	}
+
+	.mobileview .enlaces ul li a{
+	    padding: 5px;
+	    color: white;
+	    display: block;
+	    text-decoration: none;
+	}
+
+	.mobileview li{
+		background: rgba(255,255,255,0.1);
+	    border-radius: 4px;
+	    margin-right: 20px; 
+	}
+
+	.mobileview span {
+		font-size: 20px;	
+	}
+
+	.mobileview .enlaces li:hover {
+		background: rgba(0,0,0,0.3);
+	}
+
+	.menu_bar {
+		margin-top: 150px;
+		display:block;
+		height: 50px;
+		width:100%;
+		position: fixed;
+		z-index: 1000;
+		top:0;
+		background:#FEC901;
+		margin-left: 0px;
+	}
+
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 5px 10px;
+		color: #fff;
+		overflow: hidden;
+		color: white;
+		font-weight: normal;
+		text-decoration: none;
+		float: left;
+	}
+
+	.menu_bar span{
+			float: right;
+			font-size: 40px;
+	}
+
+	.nav{
+		width: 50%;
+		height: calc(100% - 32%);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+		margin-top: 116px;
+		background: rgba(254,201,1,.8);
+	}
+
+	.nav ul li{
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	.nav ul li a{
+		display: block;
+	}
+
+		/*Los subelementos nos se muestran en las vistas mobile, llevarían a la página específica de cada 
+		oferta, es decir, que cuando el usuario hace clik en Estética, lo llevaría a una página donde
+		encontraría todas las ofertas realcionadas con estética.*/
+
+	.nav ul li:hover .children{
+		display: none;
+	}
+
+	.nav ul li .children{
+			display: none;
+	}
+
+	.nav ul li .children img{
+			display: none;
+	}
+
+	.nav ul li .arrow {
+			display: none;
+	}
+
+		/*Slider*/
+
+	/*ESTA ES LA CLASE DEL SLIDER QUE ESTÁ EN EL INDEX*/
+	.index{
+		margin-top: 116px;
+	}
+
+	/*SLIDER DE REGISTRO E INGRESO DE USUARIO*/
+
+	.registroingreso{
+		margin-top: 0px;
+	}
+
+	.flexslider{
+	width: auto;
+	height: 100%;
+	position: relative;
+	}
+
+	.registroingreso ul img{
+	width: 170%;
+	}
+
+	.Registro{
+		padding-top: 118px;
+	}
+
+		/*Footer*/
+
+	.footer .logo{
+		display: none;
+	}
+
+	.footer .redes{
+		margin-top: 30px;
+	}
+
+	.footer .redes span{
+
+		font-size: 25px;
+	}
+
+	.footer .redes ul li{
+		margin: 7px;
+	}
+	.footer .redes ul li a{
+		text-decoration: none;
+	}
+
+	.footer .redes span:hover{
+		text-orientation: none;
+	}
+
+	.footer .inf{
+		margin-top: 30px;
+	}
+
+	.footer .inf span{
+		font-size: 20px;
+	}
+
+	.footer .inf ul li{
+		padding: 5px;
+	}
+
+	.footer .inf span{
+		margin: 10px;
+	}
+	
+}
+
+
+/*Para vistas hasta 425px*/
+
+@media screen and (max-width: 425px) {
+
+	.mobileview{z-index: 9999;}
+
+	.mobileview .logo{
+		width: 150px;
+		margin: 20px 0px;
+	}
+
+	.mobileview .enlaces{
+		margin-top: 20px;		
+	}
+
+	.mobileview .enlaces ul{
+		margin: 10px;
+	}
+	.mobileview .enlaces ul li{
+		padding: 10px;
+	}
+
+	/*Los subelementos nos se muestran en las vistas mobile, llevarían a la página específica de cada 
+	oferta, es decir, que cuando el usuario hace clik en Estética, lo llevaría a una página donde
+	encontraría todas las ofertas realcionadas con estética.*/
+
+	.nav ul li:hover .children {
+		display: none;
+	}
+
+	.nav ul li .children {
+		display: none;
+	}
+
+	.nav ul li .children img{
+		display: none;
+	}
+
+	.nav ul li .arrow {
+		display: none;
+	}
+
+/*ESTA ES LA CLASE DEL SLIDER QUE ESTÁ EN EL INDEX*/
+	.index{
+		margin-top: 116px;
+	}
+
+	/*SLIDER DE REGISTRO E INGRESO DE USUARIO*/
+
+	.registroingreso{
+		margin-top: 0px;
+	}
+
+	.flexslider{
+	width: auto;
+	height: 100%;
+	position: relative;
+	}
+
+	.registroingreso ul img{
+	width: 300%;
+	}
+
+	.Registro{
+		padding-top: 118px;
+	}
+
+
+
+
+
+
+
+
+
+
+/*estilos del footer vista hasta 425 px*/
+	.footer{
+		height: 340px;
+	}
+	.footer .logo{
+		display: none;
+	}
+	
+	.footer .redes{
+		display: block;
+		margin-top: 30px;
+		width: 50%;
+	}
+
+	.footer .link{
+		width: 50%;
+		font-size: 18px;
+		text-align: left;
+		padding: 10px;
+	}
+
+	.footer .inf{
+		margin-top: 0px;
+		width: 50%;
+		padding: 5px;
+	}
+}
+
